@@ -1,0 +1,33 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+.butoane{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.home-buton, .myart-buton, .fanart-buton, .contact-buton {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: rgb(97, 26, 26);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home-buton:hover, .myart-buton:hover, .fanart-buton:hover, .contact-buton:hover {
+    background-color: blue;
+}
+.h1{
+    text-align: center;
+}
